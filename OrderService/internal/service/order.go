@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"fmt"
-	userpb "github.com/AmrkaAyt/wallet_kit_test/UserService/proto"
+	userpb "github.com/AmrkaAyt/wallet_kit_test/UserService"
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"log"
