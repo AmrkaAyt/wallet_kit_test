@@ -1,14 +1,14 @@
 package main
 
 import (
+	"github.com/AmrkaAyt/wallet_kit_test/UserService/db"
+	"github.com/AmrkaAyt/wallet_kit_test/UserService/internal/service"
+	pb "github.com/AmrkaAyt/wallet_kit_test/UserService/proto"
 	"github.com/streadway/amqp"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 	"log"
 	"net"
-	"wallet_kit_test/UserService/db"
-	"wallet_kit_test/UserService/internal/service"
-	pb "wallet_kit_test/UserService/proto"
 )
 
 func main() {

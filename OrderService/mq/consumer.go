@@ -2,8 +2,8 @@ package mq
 
 import (
 	"encoding/json"
+	"github.com/AmrkaAyt/wallet_kit_test/OrderService/db"
 	"log"
-	"wallet_kit_test/OrderService/db"
 
 	"github.com/streadway/amqp"
 )

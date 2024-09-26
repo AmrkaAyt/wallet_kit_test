@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"fmt"
+	"github.com/AmrkaAyt/wallet_kit_test/UserService/db"
+	"github.com/AmrkaAyt/wallet_kit_test/UserService/mq"
+	pb "github.com/AmrkaAyt/wallet_kit_test/UserService/proto"
 	"github.com/google/uuid"
-	"wallet_kit_test/UserService/db"
-	"wallet_kit_test/UserService/mq"
-	pb "wallet_kit_test/UserService/proto"
 )
 
 type UserServiceServer struct {

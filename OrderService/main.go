@@ -4,11 +4,11 @@ import (
 	"log"
 	"net"
 
+	"github.com/AmrkaAyt/wallet_kit_test/OrderService/db"
+	"github.com/AmrkaAyt/wallet_kit_test/OrderService/internal/service"
+	"github.com/AmrkaAyt/wallet_kit_test/OrderService/mq"
+	"github.com/AmrkaAyt/wallet_kit_test/OrderService/proto"
 	"google.golang.org/grpc"
-	"wallet_kit_test/OrderService/db"
-	"wallet_kit_test/OrderService/internal/service"
-	"wallet_kit_test/OrderService/mq"
-	"wallet_kit_test/OrderService/proto"
 )
 
 func main() {
