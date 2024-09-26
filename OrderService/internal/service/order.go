@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 	"fmt"
+	userpb "github.com/AmrkaAyt/wallet_kit_test/UserService/proto"
 	"github.com/google/uuid"
 	"google.golang.org/grpc"
 	"log"
 	"wallet_kit_test/OrderService/proto"
-	userpb "wallet_kit_test/UserService/proto"
 )
 
 type OrderService struct {

@@ -51,7 +51,7 @@ func StartConsumer() {
 				continue
 			}
 
-			err = db.SaveUser(user)
+			err = db.SaveUser(db.User(user))
 			if err != nil {
 				log.Printf("Ошибка при сохранении пользователя в базу данных: %v", err)
 			} else {

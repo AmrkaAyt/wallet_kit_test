@@ -1,4 +1,4 @@
-module wallet_kit_test/UserService
+module github.com/AmrkaAyt/wallet_kit_test/UserService
 
 go 1.21
 

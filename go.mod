@@ -1,4 +1,4 @@
-module wallet_kit_test
+module github.com/AmrkaAyt/wallet_kit_test
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module wallet_kit_test/OrderService
+module github.com/AmrkaAyt/wallet_kit_test/OrderService
 
 go 1.21
 
@@ -10,7 +10,6 @@ require (
 	go.mongodb.org/mongo-driver v1.17.0
 	google.golang.org/grpc v1.67.0
 	google.golang.org/protobuf v1.34.2
-	wallet_kit_test/UserService v0.0.0-00010101000000-000000000000
 )
 
 require (
@@ -28,4 +27,3 @@ require (
 	golang.org/x/text v0.17.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142 // indirect
 )
-
