@@ -15,7 +15,7 @@ type OrderService struct {
 }
 
 func (s *OrderService) CreateOrder(ctx context.Context, req *proto.CreateOrderRequest) (*proto.CreateOrderResponse, error) {
-	conn, err := grpc.Dial("localhost:50051", grpc.WithInsecure())
+	conn, err := grpc.Dial("user_service:50051", grpc.WithInsecure())
 	if err != nil {
 		return nil, fmt.Errorf("Ошибка подключения к UserService: %v", err)
 	}
