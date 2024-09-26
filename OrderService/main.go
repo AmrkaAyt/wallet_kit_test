@@ -1,6 +1,7 @@
 package main
 
 import (
+	"google.golang.org/grpc/reflection"
 	"log"
 	"net"
 
@@ -22,6 +23,9 @@ func main() {
 
 	s := grpc.NewServer()
 	proto.RegisterOrderServiceServer(s, &service.OrderService{})
+
+	// Включаем поддержку рефлексии
+	reflection.Register(s)
 
 	go mq.StartConsumer()
 
